@@ -214,7 +214,7 @@ section .nav ul li:hover ul{
 .learn h2{
     font-size: 30px;
     font-weight: 300; 
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .tm{
@@ -246,3 +246,98 @@ section .nav ul li:hover ul{
     color: steelblue;
     font-size: 40px;
 }
+
+/* Price */
+
+.price{
+
+}
+
+.price h1{
+    font-size: 60px;
+    line-height: 2.5;
+    margin-top: 80px;
+}
+
+.price h2{
+    font-size: 30px;
+    font-weight: 300; 
+    margin-bottom: 60px;
+}
+
+.buy{
+    width: 30%;
+    box-shadow: 5px 5px 15px 5px #F2F2F2;
+    margin-right: 35px;
+}
+.free{
+    padding-left: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 42px;
+}
+
+.free h1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.free h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.free h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.free p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.list{
+    margin-bottom:30px;
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+.list li{
+    font-size: 20px;
+    line-height: 4;
+    padding-left: 22px;
+}
+
+.list li i{
+    color: skyblue;
+    padding: 0 20px;
+}
+
+.buybtn{
+    margin-top: 40px;
+}
+
+.buybtn  a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px 45px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 15px 5px #F2F2F2;
+}
+
+.buybtn  a:hover{
+    background: tomato;
+    color: #fff;
+}
+
+
