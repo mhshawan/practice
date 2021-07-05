@@ -250,7 +250,8 @@ section .nav ul li:hover ul{
 /* Price */
 
 .price{
-
+    background-color:#F7F9FF;;
+    height: 1200px;
 }
 
 .price h1{
@@ -269,11 +270,13 @@ section .nav ul li:hover ul{
     width: 30%;
     box-shadow: 5px 5px 15px 5px #F2F2F2;
     margin-right: 35px;
+    background-color: #fff;
 }
 .free{
     padding-left: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #DDDDDD;
     margin-bottom: 42px;
+    margin-top: -10px;
 }
 
 .free h1{
@@ -335,7 +338,12 @@ section .nav ul li:hover ul{
     box-shadow: 5px 5px 15px 5px #F2F2F2;
 }
 
-.buybtn  a:hover{
+.buy:hover a{
+    background: tomato;
+    color: #fff;
+}
+
+.buy:hover .free{
     background: tomato;
     color: #fff;
 }
