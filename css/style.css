@@ -201,9 +201,9 @@ section .nav ul li:hover ul{
 
 /* learn */
 
-.learn{
+/* .learn{
 
-}
+} */
 
 .learn h1{
     font-size: 60px;
@@ -409,9 +409,9 @@ section .nav ul li:hover ul{
     margin-bottom: 70px;
 }
 
-.mailbtn{
+/* .mailbtn{
 
-}
+} */
 
 input[type="email"] {
     padding: 17px 70px;
@@ -436,4 +436,58 @@ input[type="email"] {
     background: #fff;
     color: black;
     border: 1px solid tomato;
+}
+
+/* new */
+
+/* .blog{
+    width: 50%;
+}
+
+.blog-content{
+    width: 50%;
+} */
+
+.blog{
+    padding: 60px 0px;
+}
+
+.blog-title{
+    width: 50%;
+}
+
+.blog-title h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.blog-content{
+    width: 50%;
+}
+
+.blog-content p {
+	color: #767676;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.7em;
+}
+
+.blogimage{
+    width: 45%;
+    box-shadow: 5px 5px 15px 5px #f2f2f2;
+    margin-right: 57px;
+}
+
+.blogimage img{
+    width: 250px;
+    margin-right:20px;
+}
+
+.blogimage h1{
+    padding: 25px;
+}
+
+.blogimage p{
+    font-size: 20px;
 }
