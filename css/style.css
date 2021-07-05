@@ -250,7 +250,7 @@ section .nav ul li:hover ul{
 /* Price */
 
 .price{
-    background-color:#F7F9FF;;
+    background-color:#F7F9FF;
     height: 1200px;
 }
 
@@ -349,4 +349,91 @@ section .nav ul li:hover ul{
     color: #fff;
 }
 
+/* image */
 
+/* .member{
+    width: 20%;
+} */
+
+.image h1 {
+    margin-top: 85px;
+    font-size: 42px;
+}
+
+.member {
+    margin-top: 75px;
+}
+
+.member1{
+    box-shadow: 5px 5px 15px 5px #F2F2F2;
+    margin-right: 35px;
+}
+
+.member1 img{
+    width: 100%;
+    margin-right: 53px;
+    border-radius: 15px;
+}
+
+.member1 h2 {
+    padding-left: 26px;
+    margin: 20px 0;
+}
+
+.member1 h3{
+    padding-left: 26px;
+    margin-bottom: 20px;
+}
+
+/* mail */
+
+.mail{
+    margin-top: 30px;
+    background-color:#F7F9FF;
+    height: 490px;
+}
+
+.mailtext{
+    margin-top: 540px;
+}
+
+.mailtext p{
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+.mailtext h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.mailbtn{
+
+}
+
+input[type="email"] {
+    padding: 17px 70px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    font-size: 24px;
+}
+
+.mailbtn  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 75px;
+    background: tomato;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 15px 5px #f2f2f2;
+}
+
+.mailbtn a:hover{
+    background: #fff;
+    color: black;
+    border: 1px solid tomato;
+}
