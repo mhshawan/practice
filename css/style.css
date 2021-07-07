@@ -51,6 +51,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, span{
     top: 0;
     background: #fff;
     border-bottom: 1px solid #F7F9FF;
+    z-index: 1;
 }
 
 section .container{
@@ -135,10 +136,6 @@ section .nav ul li:hover ul{
 /* Banner Section */
 
 .banner{
-    /* background-image: url(../images/mbr-4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
     background: linear-gradient(90deg, rgba(131,58,180,1) 24%, rgba(29,150,253,0.9472163865546218) 51%, rgba(233,197,145,1) 100%);
     padding: 200px 0;
     color: #FFF;
@@ -491,3 +488,176 @@ input[type="email"] {
 .blogimage p{
     font-size: 20px;
 }
+
+/* testimonial */
+
+.testimonial{
+    background: #F7F9FF;
+    margin-top:300px;
+    padding-top: 150px;
+    height: 1045px;
+    
+}
+
+.testimonial p{
+    font-size: 30px;
+    padding-bottom: 60px;
+    position: relative;
+    bottom: 0;
+}
+
+.testimonial h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.tm-content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.t-content{
+    width: 25%;
+    box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 0 1%;
+    background: #fff;
+    position: relative;
+}
+
+.t-content::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+
+.user{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.user-box {
+    width: 20%;
+    margin-left: 8%;
+    display: flex;
+}
+
+.user-img {
+    width: auto;
+    height: 92px;
+    border-radius: 50px;
+    margin-right: 24px;
+}
+
+.user-box h1{
+    margin-bottom: auto;
+}
+
+.user-box p{
+    font-size:20px;
+}
+
+/* contact */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.map{
+    width: 40%;
+    padding-right: 100px;
+}
+
+.contact-form{
+    width: 30%;
+}
+
+.contact-form h1{
+    margin: 35px 0;
+}
+
+.contact-form p{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.form input[type="email"] {
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+
+.form input[type="text"] {
+    width: 50%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    font-size: 24px;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.form input[type="tel"] {
+    width: 50%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.textarea{
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.form-btn  {
+    text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+    padding: 16px 70px;
+    background:tomato;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 15px 5px #F2F2F2;
+    
+}
+
+.form-btn:hover{
+    background: #fff;
+    color: black;
+    border: 2px solid tomato;
+}
+
+/* footer */
+
+.footer p{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+
